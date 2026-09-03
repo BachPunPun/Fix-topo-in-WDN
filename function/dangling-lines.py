@@ -26,7 +26,7 @@ import config
 COORD_PRECISION = 6
 OUTPUT_PATH = config.OUTPUT_DIR / f"{config.RUN_NAME}-{Path(__file__).stem}.shp"
 ITERATIONS_MAX = 1
-DIST_THRESHOLD = 0.1
+DIST_THRESHOLD = 0.15
 
 
 # ── Hàm hỗ trợ: tìm cột ID ───────────────────────────────────
