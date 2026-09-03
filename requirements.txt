@@ -1,0 +1,22 @@
+# ============================================================================
+#  Sửa lỗi Topology WDN GIS — Thư viện Python cần cài đặt.
+#
+#  YÊU CẦU PYTHON: 3.10 – 3.14 (đã kiểm thử trên Python 3.14.6)
+# ============================================================================
+
+# ── Xử lý dữ liệu không gian (GIS) ──────────────────────────────────────────
+geopandas>=1.0,<2           # GeoDataFrame; quản lý dữ liệu không gian
+shapely>=2.0,<3             # STRtree, substring, tính toán hình học (bắt buộc shapely 2.x)
+pyogrio>=0.8                # Đọc/ghi shapefile & .gdb tốc độ cao
+pyproj>=3.5                 # Chuyển đổi hệ tọa độ CRS
+
+# ── Đồ thị & Tính toán ──────────────────────────────────────────────────────
+networkx>=3.0               # MultiGraph, connected_components (phân tích liên thông mạng)
+pandas>=2.0,<4              # Xử lý bảng thuộc tính, concat, map
+numpy>=1.24,<3              # Tính toán ma trận/mảng số học
+
+# ── Xuất kết quả ────────────────────────────────────────────────────────────
+openpyxl>=3.1               # Hỗ trợ xuất dữ liệu ra file Excel (.xlsx)
+
+# ── Mô phỏng thủy lực (Hydraulic Modeling) ──────────────────────────────────
+wntr>=1.2.0                 # Water Network Tool for Resilience (EPANET simulation & analysis)
