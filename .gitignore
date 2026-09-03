@@ -185,3 +185,4 @@ data/
 result/*
 !result/parameter-analysis/
 !result/result-analysis/
+!result/atopo-analysis/
